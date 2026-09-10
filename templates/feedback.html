@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da CIPA - Fim de Jogo</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>Fim de Jogo!</header>
+
+    <main style="display: flex; flex-direction: column; gap: 20px; text-align: center;">
+        <h2 id="pergunta">Parabéns por concluir o Quiz da CIPA Fluipress!</h2>
+        
+        <!-- O placar estilizado mostrando o resultado final -->
+        <div id="placar" style="font-size: 2rem; margin: 0 auto;">
+            Sua pontuação final foi: <b>{{ pontos }}</b>
+        </div>
+
+        <p style="opacity: 0.8; max-width: 400px; margin-top: 10px;">
+            Obrigado por participar. Seus dados de conhecimento em segurança foram contabilizados com sucesso!
+        </p>
+
+        <!-- Botão estilizado para reiniciar -->
+        <a href="/" style="width: 100%; max-width: 280px; margin: 20px auto 0 auto; text-decoration: none;">
+            <button id="start_btn" type="button" style="width: 100%;">Jogar Novamente</button>
+        </a>
+    </main>
+
+    <footer>© by Gabriel Roberto da Silva</footer>
+</body>
+</html>

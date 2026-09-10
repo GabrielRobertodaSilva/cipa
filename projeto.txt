@@ -1,0 +1,21 @@
+SIPA: 
+criação de um jogo tipo show do milhão para ajudar a engajar no assunto de segurança,
+aplicar os conceitos aprendidos até o momento sobre python, CSS, HTML, e CSS usando, 
+conceitos de flask, criação de app web, responsividade, e interatividade com um pouco de
+JavaScript.
+
+Ferreamentas: Python, CSS, HTML, CSS, JavaScript, Git, Github, Flask
+
+Descrição: O jogo deve ser  simples e funcional.
+1- perguntas e respostas
+2- pontuação
+3- mostrar a resposta certa ao errar e pular para próxima.
+4- ter um ranking com quem está a frente.*esse vai ser um desafio*
+
+Passo a Passp: 
+monta as peguntas e respostas !
+definir como sera a clasificação de pontos
+
+
+Funções: 
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da CIPA - Perguntas</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <!-- Aqui vai ficar o placar de pontos criado no Python -->
+        <div id="placar">Pontos: {{pontos}}</div>
+    </header>
+
+    <main>
+        <!-- Um bloco para a pergunta -->
+        <h2 id="pergunta">{{dados.pergunta}}</h2>
+
+        <form action="/responder" method="POST" id="container-opcoes">
+        
+            {% for chave, valor in dados.opcao.items() %}
+                <button class="btn-opcao" type="submit" name="resposta_usuario" value="{{chave}}">{{ chave }} - {{ valor }}</button>
+            {% endfor %}
+        </form>
+    </main>
+
+    <footer>© by Gabriel Roberto da Silva</footer>
+</body>
+</html>
